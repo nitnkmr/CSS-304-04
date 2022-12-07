@@ -1,0 +1,27 @@
+*{
+    margin: 0;padding: 0;
+}
+.container{
+    background-color: blue;
+    color: aliceblue;
+    height: 10vh;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+li{
+    padding: 1.4%;
+    /* margin-top: 2.5%; */
+    font-size: 1.2rem;
+}
+li:hover{
+    padding: 1.4%;
+    font-size: 1.2rem;
+    color: rgb(251, 249, 249);
+    text-decoration: underline;
+    background-color: rgb(29, 29, 179);
+}
